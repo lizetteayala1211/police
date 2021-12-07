@@ -1,0 +1,229 @@
+/* font faces */
+
+@font-face {
+    font-family: "Sometimes";
+    src: url("./assets/fonts/Sometimes-Times.otf");
+}
+
+body {
+    background-color: black;
+    background-image: url(./assets/images/background/background.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#notes-container {
+    position: absolute;
+    top: 10px;
+    left: 11px;
+    width: calc(100% - 25px);
+    height: calc(100% - 25px);
+/*    border: 1px solid white;*/
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+
+#elements-container {
+    width: 98%;
+    height: 96%;
+    display: flex; 
+    align-self: center;  
+    flex-direction: column; 
+/*    background-color: green;*/
+    align-self: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#top-container {
+    width: 100%;
+    height: 50%;
+    display: flex;    
+    flex-direction: row;
+    align-self: center;
+/*    background-color: green;*/
+    font-family: "Sometimes";
+}
+
+#name-container {
+    width: 22%;
+    height: 20%;
+    display: flex;
+    /*background-color: red;*/
+    color: white;
+    font-size: 1.3vw;
+    cursor: pointer;
+}
+
+#name-container.top.first{ 
+    transition:all .8s ease;
+}
+
+#name-container.top.first:hover { 
+    transform:skew(-15deg);
+}
+
+#name-container.top.second { 
+    transition:all .8s ease;
+}
+
+#name-container.top.second:hover { 
+    transform:skew(-15deg);
+}
+
+#name-container.top.third { 
+    transition:all .8s ease;
+}
+
+#name-container.top.third:hover { 
+    transform:skew(-15deg);
+}
+
+a, a:hover, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#bio-container {
+    width: 34%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+/*    background-color: red;*/
+    color: white;
+    font-size: 1.2vw;
+    overflow: scroll;
+    cursor: default;
+}
+
+#bio-copy {
+    width: 52%;
+    height: 100%;
+    display: none;
+    align-self: center;
+/*    background-color: red;*/
+    color: white;
+    font-size: 1.1vw;
+/*    margin-top: 10px;*/
+}
+
+#bio-copy.margin-left {
+    display: none;
+    margin-left: 15px;
+}
+
+#middle-container { 
+    width: 100%;
+    height: 20%;
+    display: flex;    
+    flex-direction: row;
+    align-self: center;
+/*    background-color: green;*/
+    font-family: "Sometimes";
+}
+
+#name-container.middle.first {
+    width: 12%;
+    cursor: default;
+}
+
+#name-container.middle.second {
+    width: 29%;
+    cursor: default;
+}
+
+#name-container.middle.third {
+    cursor: default;
+}
+
+#bottom-container {
+    width: 100%;
+    height: 15%;
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+/*    background-color: blue;*/
+    font-family: "Sometimes";
+}
+
+#name-container.bottom.first {
+    width: 40%;
+    cursor: default;
+}
+
+#play-button {
+    color: white;
+    width: 35%;
+/*    background-color: red;*/
+    transition:all .8s ease;
+    cursor: pointer;
+}
+
+#play-button:hover {
+    transform:skew(-15deg);
+}
+
+#pause-button {
+    color: white;
+    width: 15%;
+    display: flex;  
+    justify-content: flex-end;
+/*    background-color: orange;*/
+    transition:all .8s ease;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#pause-button:hover {
+    transform:skew(-15deg);
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+/*body {
+    background-color: #0066FF;
+    background-image: url(./assets/images/grid/1.jpg);
+    overflow: auto;
+}   
+
+#blackboard {
+    display: block;
+    width: 100%;
+    height: 99vh;
+    pointer-events: all;
+    background-image: url(./assets/images/grid/grid4.png);
+    background-position: 0px 0px;
+    background-size: auto 30px;
+    background-repeat: repeat;
+}
+
+#notes-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 95%;
+    height: 97.5vh;
+    border: 2px solid white;
+    margin: 20px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+}
