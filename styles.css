@@ -224,7 +224,7 @@ body {
 
 #bio-container {
     width: 34%;
-    height: 75vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     /* background-color: red; */
@@ -276,7 +276,7 @@ body {
     cursor: default;
     /*display: none;*/
     position: relative;
-    top: 60vh;
+    top: 50vh;
     right: -61vw;
 }
 
@@ -284,7 +284,7 @@ body {
     cursor: default;
     /*display: none;*/
     position: relative;
-    top: 60.1vh;
+    top: 50.1vh;
     left: -33vw;
 }
 
