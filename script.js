@@ -1,7 +1,7 @@
 
 $(document).ready(
     function() {
-        $("#name-container:nth-child(3)").click(function() {
+        $("#name-container:nth-child(4)").click(function() {
         	// $('#bio-container').css('display', 'flex');
             $("#bio-copy").fadeToggle();
             $("#bio-copy:nth-child(2)").fadeToggle();
