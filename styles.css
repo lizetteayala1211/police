@@ -224,7 +224,7 @@ body {
 
 #bio-container {
     width: 34%;
-    height: 60vh;
+    height: 66vh;
     display: flex;
     flex-direction: column;
     /* background-color: red; */
@@ -260,7 +260,7 @@ body {
     /* background-color: green; */
     font-family: "Sometimes";
     position: relative;
-    top: -30vh;
+    top: -25vh;
     left: 0vw;
     font-size: 1.7vw;
 }
@@ -276,7 +276,7 @@ body {
     cursor: default;
     /*display: none;*/
     position: relative;
-    top: 60vh;
+    top: 65vh;
     right: -61vw;
 }
 
@@ -284,7 +284,7 @@ body {
     cursor: default;
     /*display: none;*/
     position: relative;
-    top: 60.1vh;
+    top: 65.1vh;
     left: -33vw;
 }
 
@@ -299,7 +299,7 @@ body {
     /* background-color: blue; */
     font-family: "Sometimes";
     position: relative;
-    top: -30vh;
+    top: -20vh;
     left: 0vw;
     font-size: 1.7vw;
 }
