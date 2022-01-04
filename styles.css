@@ -177,7 +177,7 @@ a, a:hover, a:visited {
 }
 
 #play-button:hover {
-    transform:skew(-15deg);
+    transform:skew(-13deg);
 }
 
 #pause-button {
@@ -193,7 +193,7 @@ a, a:hover, a:visited {
 }
 
 #pause-button:hover {
-    transform:skew(-15deg);
+    transform:skew(-13deg);
 }
 
 
